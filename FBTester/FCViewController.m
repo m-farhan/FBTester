@@ -96,4 +96,12 @@
     [userImage setImageWithURL:[NSURL URLWithString:[NSString stringWithFormat:@"https://graph.facebook.com/%@/picture?type=large",[user objectForKey:@"id"]]]
               placeholderImage:[UIImage imageNamed:@"unknownUser.png"]];
 }
+-(IBAction)Signout:(id)sender
+{
+    [[FBSession activeSession] close];
+    [[FBSession activeSession] closeAndClearTokenInformation];
+    userDetails.text=@"";
+    [userImage setImage:[UIImage imageNamed:@"unknownUser.png"]];
+
+}
 @end

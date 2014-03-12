@@ -13,4 +13,5 @@
 @property (nonatomic, retain) IBOutlet UIImageView *userImage;
 -(IBAction)FBConnect:(id)sender;
 -(void)fbProcessUserData:(NSDictionary *)user;
+-(IBAction)Signout:(id)sender;
 @end
