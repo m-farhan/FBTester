@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface FCViewController : UIViewController
-
+@property (nonatomic, retain) IBOutlet UITextView *userDetails;
+@property (nonatomic, retain) IBOutlet UIImageView *userImage;
+-(IBAction)FBConnect:(id)sender;
+-(void)fbProcessUserData:(NSDictionary *)user;
 @end
