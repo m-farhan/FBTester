@@ -500,7 +500,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/Farhan/Desktop/FBTester/FBTester,
-					/Users/Farhan/Documents/FacebookSDK,
+					"../..//Documents/FacebookSDK",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FBTester/FBTester-Prefix.pch";
@@ -518,7 +518,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/Farhan/Desktop/FBTester/FBTester,
-					/Users/Farhan/Documents/FacebookSDK,
+					"../..//Documents/FacebookSDK",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FBTester/FBTester-Prefix.pch";
