@@ -22,6 +22,7 @@
 		D83BAC6318CDAAC0006EFE0D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D83BAC4218CDAAC0006EFE0D /* UIKit.framework */; };
 		D83BAC6B18CDAAC0006EFE0D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D83BAC6918CDAAC0006EFE0D /* InfoPlist.strings */; };
 		D83BAC6D18CDAAC0006EFE0D /* FBTesterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D83BAC6C18CDAAC0006EFE0D /* FBTesterTests.m */; };
+		D87CE65B18DF704400F9A14A /* Post.png in Resources */ = {isa = PBXBuildFile; fileRef = D87CE65A18DF704400F9A14A /* Post.png */; };
 		D886EC3D18CDB75F00411F29 /* MKAnnotationView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = D886EC2018CDB75E00411F29 /* MKAnnotationView+WebCache.m */; };
 		D886EC3E18CDB75F00411F29 /* NSData+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = D886EC2218CDB75E00411F29 /* NSData+GIF.m */; };
 		D886EC3F18CDB75F00411F29 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = D886EC2418CDB75E00411F29 /* SDImageCache.m */; };
@@ -38,6 +39,9 @@
 		D886EC4A18CDB75F00411F29 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = D886EC3B18CDB75F00411F29 /* UIImageView+WebCache.m */; };
 		D886EC4C18CDB88200411F29 /* unknownUser.png in Resources */ = {isa = PBXBuildFile; fileRef = D886EC4B18CDB88200411F29 /* unknownUser.png */; };
 		D886EC4E18CEC66A00411F29 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D886EC4D18CEC66A00411F29 /* FacebookSDK.framework */; };
+		D8E0F32318E277AF005F31E0 /* FCPost.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E0F32118E277AF005F31E0 /* FCPost.m */; };
+		D8E0F32418E277AF005F31E0 /* FCPost.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8E0F32218E277AF005F31E0 /* FCPost.xib */; };
+		D8E0F32618E27B55005F31E0 /* FB.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D8E0F32518E27B55005F31E0 /* FB.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,7 +75,7 @@
 		D83BAC6818CDAAC0006EFE0D /* FBTesterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FBTesterTests-Info.plist"; sourceTree = "<group>"; };
 		D83BAC6A18CDAAC0006EFE0D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D83BAC6C18CDAAC0006EFE0D /* FBTesterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBTesterTests.m; sourceTree = "<group>"; };
-		D886EC1E18CDB75E00411F29 /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
+		D87CE65A18DF704400F9A14A /* Post.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Post.png; sourceTree = "<group>"; };
 		D886EC1F18CDB75E00411F29 /* MKAnnotationView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKAnnotationView+WebCache.h"; sourceTree = "<group>"; };
 		D886EC2018CDB75E00411F29 /* MKAnnotationView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKAnnotationView+WebCache.m"; sourceTree = "<group>"; };
 		D886EC2118CDB75E00411F29 /* NSData+GIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+GIF.h"; sourceTree = "<group>"; };
@@ -103,6 +107,10 @@
 		D886EC3B18CDB75F00411F29 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
 		D886EC4B18CDB88200411F29 /* unknownUser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unknownUser.png; sourceTree = "<group>"; };
 		D886EC4D18CEC66A00411F29 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
+		D8E0F32018E277AF005F31E0 /* FCPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCPost.h; sourceTree = "<group>"; };
+		D8E0F32118E277AF005F31E0 /* FCPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCPost.m; sourceTree = "<group>"; };
+		D8E0F32218E277AF005F31E0 /* FCPost.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FCPost.xib; sourceTree = "<group>"; };
+		D8E0F32518E27B55005F31E0 /* FB.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FB.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +171,7 @@
 		D83BAC4418CDAAC0006EFE0D /* FBTester */ = {
 			isa = PBXGroup;
 			children = (
+				D8E0F32518E27B55005F31E0 /* FB.jpg */,
 				D886EC4D18CEC66A00411F29 /* FacebookSDK.framework */,
 				D886EC4B18CDB88200411F29 /* unknownUser.png */,
 				D886EC1D18CDB75E00411F29 /* SDWebImage */,
@@ -174,6 +183,9 @@
 				D83BAC5718CDAAC0006EFE0D /* FCViewController.m */,
 				D83BAC5918CDAAC0006EFE0D /* Images.xcassets */,
 				D83BAC4518CDAAC0006EFE0D /* Supporting Files */,
+				D8E0F32018E277AF005F31E0 /* FCPost.h */,
+				D8E0F32118E277AF005F31E0 /* FCPost.m */,
+				D8E0F32218E277AF005F31E0 /* FCPost.xib */,
 			);
 			path = FBTester;
 			sourceTree = "<group>";
@@ -181,6 +193,7 @@
 		D83BAC4518CDAAC0006EFE0D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D87CE65A18DF704400F9A14A /* Post.png */,
 				D83BAC4618CDAAC0006EFE0D /* FBTester-Info.plist */,
 				D83BAC4718CDAAC0006EFE0D /* InfoPlist.strings */,
 				D83BAC4A18CDAAC0006EFE0D /* main.m */,
@@ -210,7 +223,6 @@
 		D886EC1D18CDB75E00411F29 /* SDWebImage */ = {
 			isa = PBXGroup;
 			children = (
-				D886EC1E18CDB75E00411F29 /* Icon */,
 				D886EC1F18CDB75E00411F29 /* MKAnnotationView+WebCache.h */,
 				D886EC2018CDB75E00411F29 /* MKAnnotationView+WebCache.m */,
 				D886EC2118CDB75E00411F29 /* NSData+GIF.h */,
@@ -322,9 +334,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D83BAC5518CDAAC0006EFE0D /* Main_iPad.storyboard in Resources */,
+				D87CE65B18DF704400F9A14A /* Post.png in Resources */,
 				D886EC4C18CDB88200411F29 /* unknownUser.png in Resources */,
 				D83BAC5A18CDAAC0006EFE0D /* Images.xcassets in Resources */,
 				D83BAC5218CDAAC0006EFE0D /* Main_iPhone.storyboard in Resources */,
+				D8E0F32618E27B55005F31E0 /* FB.jpg in Resources */,
+				D8E0F32418E277AF005F31E0 /* FCPost.xib in Resources */,
 				D83BAC4918CDAAC0006EFE0D /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -360,6 +375,7 @@
 				D886EC4518CDB75F00411F29 /* SDWebImagePrefetcher.m in Sources */,
 				D886EC4018CDB75F00411F29 /* SDWebImageCompat.m in Sources */,
 				D886EC4718CDB75F00411F29 /* UIImage+GIF.m in Sources */,
+				D8E0F32318E277AF005F31E0 /* FCPost.m in Sources */,
 				D83BAC5818CDAAC0006EFE0D /* FCViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,9 +7,8 @@
 //
 
 #import "FCViewController.h"
-#import <FacebookSDK/FacebookSDK.h>
 #import "SDWebImage/UIImageView+WebCache.h"
-
+#import "FCPost.h"
 @interface FCViewController ()
 
 @end
@@ -96,6 +95,17 @@
     [userImage setImageWithURL:[NSURL URLWithString:[NSString stringWithFormat:@"https://graph.facebook.com/%@/picture?type=large",[user objectForKey:@"id"]]]
               placeholderImage:[UIImage imageNamed:@"unknownUser.png"]];
 }
+-(IBAction)postImage:(id)sender
+{
+    FCPost *add = [[FCPost alloc]
+                                  initWithNibName:@"FCPost" bundle:nil];
+    [self presentViewController:add animated:YES completion:nil];
+}
+-(IBAction)postCheckIn:(id)sender
+{
+    //NSLog(@"%@",[[FBSession activeSession] permissions]);
+}
+
 -(IBAction)Signout:(id)sender
 {
     [[FBSession activeSession] close];
